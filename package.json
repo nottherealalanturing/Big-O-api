@@ -1,0 +1,27 @@
+{
+  "name": "big-o-api",
+  "version": "1.0.0",
+  "description": "Code analyzer",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nottherealalanturing/Big-O-api.git"
+  },
+  "author": "Assad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nottherealalanturing/Big-O-api/issues"
+  },
+  "homepage": "https://github.com/nottherealalanturing/Big-O-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "pino": "^9.5.0",
+    "pino-pretty": "^11.3.0"
+  }
+}
